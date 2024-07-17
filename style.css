@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+header {
+    background-color: black;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menus {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+
+.header__menus li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: left;
+    color: white;
+}
+
+.header__menus li a:hover {
+    color: #F57520;
+}
+
+.header__logos {
+    color: white;
+    gap: 25px;
+}
+
+
+.hero__section {
+    background-image: url(./img/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+
+main .hero__section h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 118.08px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: white;
+}
+
+main .hero__section p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: white;
+}
+
+.main__btn {
+    width: Fixed (180px)px;
+    height: Hug (52px)px;
+    padding: 16px 80px 16px 80px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    opacity: 0px;
+    background-color: #F57520;
+    color: white;
+}
+
+.hero__section2 {
+    background-color: grey
+}
+
+.hero__section2 h2 {
+    padding: 100px;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.images {
+    width: 1280px;
+    height: 774px;
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+.images div img {
+    width: 45%;
+}
+
+.hero__section3 {
+    background-color: grey;
+}
+
+.hero__section3 h2 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.hero__section3--box {
+    background-color: #101010;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.hero__section3--box:hover {
+    background-color: #F57520;
+}
+
+.hero__section3--p {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 25.6px;
+    text-align: left;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.hero__section3 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.hero__box {
+    width: 1280px;
+    height: 964px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.hero__section4 {
+    background-color: #F57520;
+    padding: 50px;
+}
+
+.hero__section4 h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+    padding: 25px 0;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    gap: 10px;
+    background-image: url(./img/image\ 86.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inputs input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+#big {
+    width: 618px;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    padding: 10px;
+}
+
+.button {
+    color: #F57520;
+    background-color: white;
+    margin-top: 15px;
+    width: 618px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.map {
+    width: 1550px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer .container {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__menus {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 100px;
+}
+
+.footer__menus li a {
+    text-decoration: none;
+    color: white;
+}
+
+.foooter__manu {
+    align-items: center;
+    list-style: none;
+    gap: 100px;
+}
+.foooter__menu li a {
+    text-decoration: none;
+    color: white;
+}
